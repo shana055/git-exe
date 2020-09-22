@@ -4,7 +4,7 @@ def x(z):
     for r in z:
         if r not in y and ord(r) < 87:
             d += r
-    return d
+    return d.sort(revers = True)
 
 print(x('BED'))
 print(x('CLOSET'))
